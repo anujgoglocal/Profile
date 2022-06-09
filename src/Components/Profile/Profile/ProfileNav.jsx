@@ -6,7 +6,7 @@ import "./Profile.css";
 export default function Support() {
 
   const history = useHistory();
-  const [click1, setClick1]=useState(false);
+  const [click1, setClick1]=useState(true);
   const [click2, setClick2]=useState(false);
   const [click3, setClick3]=useState(false);
 
