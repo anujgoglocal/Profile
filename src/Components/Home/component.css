@@ -1,0 +1,230 @@
+*{
+  font-family: 'Poppins';
+}
+  .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .btn-sign-in{
+    /* box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 46px; */
+    position: absolute;
+    width: 149px;
+    height: 40px;
+    left: 1137px;
+    top: 60px;
+
+    /* background: #ffffff; */
+    /* border-radius: 10px;
+    text-decoration: none;
+    color: #646464; */
+    /* cursor: pointer; */
+  }
+  
+  .btn-sign-up{
+    /* box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 8px 46px; */
+    position: absolute;
+    width: 149px;
+    height: 40px;
+    left: 1308px;
+    top: 60px;
+    /* background: #1D1125;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white; */
+  
+  }
+  
+  .nav-buttons{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    position: absolute;
+    width: 316px;
+    height: 24px;
+    left: 610px;
+    top: 68px;
+    
+  }
+
+.button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin: 0px 14px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.btn-home{
+    position: static;
+    width: 50px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+  
+    color: #000000;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+.btn-career{
+    position: static;
+    width: 67px;
+    height: 24px;
+    left: 80px;
+    top: 0px;
+
+    color: #646464;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn-about{
+    position: static;
+    width: 86px;
+    height: 24px;
+    left: 177px;
+    top: 0px;
+
+    color: #646464;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.btn-faq{
+    position: static;
+    width: 33px;
+    height: 24px;
+    left: 283px;
+    top: 0px;
+
+    color: #646464;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  
+}
+
+.connected-world{
+    position: absolute;
+    width: 1161.61px;
+    height: 700px;
+    left: 75px;
+    top: 32px;
+    background-image: url('./Images/connected_world.png');
+    background-size: 100% 100%;
+    z-index:-1;
+}
+
+.img-right{
+  position: absolute;
+  width: 503px;
+  height: 432px;
+  left: 1008px;
+  top: 246px;
+  background-size: 100% 100%;
+  background-image: url('./Images/Vector.png');
+  /* background-color:  #FFF4F4; */
+}
+
+.img-gradient{
+  background-size: 100% 100%;
+  position: absolute;
+  width: 444px;
+  height: 791px;
+  left: 1090px;
+  top: 0px;
+  z-index: -10;
+  background: url('Images/Rectangle 2337.png'); 
+  /* background-color:  #FFF4F4; */
+}
+
+.content{
+  position: absolute;
+  width: 491px;
+  height: 180px;
+  left: 59px;
+  top: 304px;
+}
+
+.header{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  
+}
+
+.menu{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #646464;
+}
+
+.btn-started{
+  position: absolute;
+  width: 78px;
+  height: 21px;
+  top: 413px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 18px;
+  text-decoration: none;
+  background: #1D1125;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.logo{
+  position: absolute;
+  background-size: contain;
+  width: 177px;
+  height: 30px;
+  left: 59px;
+  top: 60px;
+  background: url('Images/GoGlocal.png');
+  background-repeat: no-repeat;
+}

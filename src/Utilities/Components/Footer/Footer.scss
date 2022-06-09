@@ -1,0 +1,38 @@
+@import "../../Utilities/variables";
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    padding: 5px 60px;
+    height: 10%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .footer-contact_btn {
+        width: 235px;
+        height: 63px;
+        .contactus {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer {
+        padding: 5px 30px;
+        height: 80px;
+
+        .footer-contact_btn {
+            width: 135px;
+            height: 43px;
+
+            .contactus {
+                font-size: 15px;
+            }
+        }
+    }
+}

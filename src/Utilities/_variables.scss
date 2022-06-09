@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+$font-xxsmall: 14px;
+$font-xsmall: 16px;
+$font-small: 18px;
+$font-medium: 24px;
+$font-large: 40px;
+$font-xlarge: 60px;
+$font-bold: bold;
+$font-inter: "Inter", sans-serif;
+$font-open: "Open Sans", sans-serif;
+$font-poppins: "Poppins", sans-serif;
+$primary-color: #1d1125;
+$sidebar-width: 280px;
+
+.f-xs {
+    font-size: $font-xsmall;
+}
+
+.f-s {
+    font-size: $font-small;
+}
+
+.f-m {
+    font-size: $font-medium;
+}
+
+.f-l {
+    font-size: $font-large;
+}
+.f-xl {
+    font-size: $font-xlarge;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ff-inter {
+    font-family: $font-inter;
+}
+
+.ff-open {
+    font-family: $font-open;
+}
+
+.ff-poppins {
+    font-family: $font-poppins;
+}
+
+.fw-b {
+    font-weight: 700;
+}
+
+.fw-sb {
+    font-weight: 600;
+}
+
+.fw-m {
+    font-weight: 500;
+}
+
+.fw-r {
+    font-weight: 400;
+}
+
+.color-primary {
+    color: $primary-color;
+}
+
+//header footer text color
+
+@media screen and (max-width: 700px) {
+    .f-xs {
+        font-size: $font-xsmall;
+    }
+
+    .f-s {
+        font-size: $font-xsmall;
+    }
+
+    .f-m {
+        font-size: $font-medium;
+    }
+
+    .f-l {
+        font-size: $font-medium;
+    }
+    .f-xl {
+        font-size: $font-large;
+    }
+}

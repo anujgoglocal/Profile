@@ -1,0 +1,13 @@
+.mainPage {
+    display: grid;
+    grid-template-columns: minmax(270px, 15%) auto;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 750px) {
+    .mainPage {
+        grid-template-columns: 1fr;
+    }
+}

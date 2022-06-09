@@ -1,0 +1,126 @@
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .appForm {
+    width: 50%;
+    padding: 25px 4px;
+    overflow: auto;
+  }
+  
+  .appAside {
+    width: 50%;
+      background-color: #191120; 
+      /* background-image: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+   
+  }
+  
+  .formCenter {
+    margin-bottom: 100px;
+    margin-top: 10%;
+    margin-left: 14%;
+    margin-right: 14%;
+  } 
+  
+  .formCenter{
+     width: 60%;
+  }
+  
+  .formFieldLabel {
+     display: block;
+      margin-bottom: 10px;
+  }
+  
+  .formFieldInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+  }
+  
+  .or{
+     text-align: center;
+     font-weight: bold;
+     margin-bottom: 20px;
+  }
+  
+  .formFieldButton {
+    width: 100%;
+    background-color: #020007;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  
+  }
+  .otpField{
+    margin-top: 30px;
+    /* width: 90%; */
+  }
+  
+  .sign-in{
+    width: 100%;
+    margin-bottom: 40px;
+    padding-left: 200px;
+  
+  }
+  
+  .button{
+    position: relative;
+    margin-top: 120px;
+    /* margin-bottom: 10px; */
+    margin-left: 60px;
+    display: inline-block;
+  }
+  
+  .pageSwitcher{
+    background-color: #ffffff;
+    color: #f10b0b;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border: 1px solid rgb(239, 70, 70) ;
+    border-radius: 5px ;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .pageSwitcher:hover{
+    text-decoration: none;
+    color: #f10b0b;
+  
+  }
+  
+  .box-container{
+    position: absolute;
+    width: 400px;
+    height: 390px;
+    left: 541px;
+    top: 150px;
+  
+    /* white */
+    background: #FFFFFF;
+    /* drop 1 */
+  
+    box-shadow: 5px 4px 35px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+  }
+  
+  .otp-menu{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 90%;
+  }
+  
+  
+  .otp-button{
+      margin-top: 12%;
+  }
