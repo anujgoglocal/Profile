@@ -26,7 +26,7 @@ function App() {
                     <Route path="/otp">
                         <Otp />
                     </Route> */}
-                    <Route path="/landing">
+                    <Route path="/">
                         <LogisticsMainPage />
                     </Route>
                     <Route path="/logistics">
